@@ -1,0 +1,90 @@
+*{margin: 0;padding: 0; box-sizing: border-box;}
+.site-header {
+    width: 100%;
+    height: 100vh;
+    background: #0f8a9d;
+    background: linear-gradient(57deg, #00C6A7 , #1E4D92 ); 
+    clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 0% 100%);
+}
+
+nav{
+    width: 100%; height: 100px; display: flex;
+}
+.logo{
+    width: 50%; height: 100px;
+ 
+}
+.logo h1{
+    line height: 100px;
+    margin:40px;
+}
+.menu ul{
+    height: 100px; width: 200%; display: flex; flex-direction: row;
+     justify-content: space-around;
+     align-items: center;
+}
+.menu ul li{
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 3px 3px 2px violet;
+}
+.menu ul li:hover{
+    background: linear-gradient(57deg, #1E4D92,#00C6A7  );  
+
+}
+
+section{
+    display: flex;
+    
+}
+.left-side{
+    width: 100%;
+    margin-top: 5%;
+    margin-left: 25%;
+   
+}
+.right-side{
+    margin-top: 70px;
+    margin-right: 150px;
+    margin-bottom: 50px;
+}
+img{
+    height: 400px;
+    width: 400px;
+    background: none;
+    margin-bottom: 10%;
+}
+.right-side h1{
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 5px 5px 3px blueviolet;
+}
+.logo h1{
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+    text-shadow: 5px 5px 3px blueviolet;
+}
+.right-side p{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    text-shadow: 3px 3px 2px violet;
+}
+.right-side button{
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    border-radius: 4px;
+    background:linear-gradient(57deg, #00C6A7 , #1E4D92 );
+    padding:20px 35px;
+    border-style: inset; 
+
+}
+.right-side button:hover{
+    background:linear-gradient(57deg, #1E4D92,#00C6A7  );
+}
